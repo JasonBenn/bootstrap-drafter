@@ -4,6 +4,11 @@ guard :shell do
   end
 end
 
+guard :less do
+  watch %r{draft.less}
+end
+
 guard :livereload do
   watch(%r{draft.html})
+  watch(%r{draft.css})
 end
