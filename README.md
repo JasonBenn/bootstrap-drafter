@@ -3,11 +3,13 @@ bootstrap-drafter
 
 Quickly prototype ideas with Guard, LiveReload, HAML, LESS, and Bootstrap.
 
+```bash
 cp -r bootstrap-drafter my-new-app
 cd my-new-app
 bundle exec guard
 open draft.html
-Activate LiveReload extension.
+```
+And download/activate the LiveReload browser extension.
 
 OR:
 
@@ -22,4 +24,4 @@ function draft(){
 }
 ```
 
-To use, enter `draft name-of-app`.
+To use, enter `draft name-of-app`.  Remember to active LiveReload afterwards.
