@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-drafter",
+  "version": "1.0.0",
+  "dependencies": {
+    "normalize.css": "latest",
+    "font-awesome": "latest",
+    "jquery": "latest",
+    "backbone": "latest",
+    "underscore": "latest",
+    "velocity": "latest"
+  }
+}
